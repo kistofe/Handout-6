@@ -1,6 +1,6 @@
 ﻿  j1Map.cpp
-c:\users\kistofe\desktop\dev_class7.5_handout\motor2d\j1map.cpp(123): warning C4018: '<': signed/unsigned mismatch
-c:\users\kistofe\desktop\dev_class7.5_handout\motor2d\j1map.cpp(215): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\kistofe\desktop\dev_class7.5_handout\motor2d\j1map.cpp(216): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Motor2D.vcxproj -> C:\Users\Kistofe\Desktop\Dev_class7.5_handout\Debug\Dev Class7.5 Handout.exe
-  Motor2D.vcxproj -> C:\Users\Kistofe\Desktop\Dev_class7.5_handout\Debug\Dev Class7.5 Handout.pdb (Partial PDB)
+c:\users\cristianpl\documents\github\handout-6\motor2d\j1map.cpp(119): warning C4018: '<': no coinciden signed/unsigned
+c:\users\cristianpl\documents\github\handout-6\motor2d\j1map.cpp(211): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\cristianpl\documents\github\handout-6\motor2d\j1map.cpp(212): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  Motor2D.vcxproj -> C:\Users\cristianpl\Documents\GitHub\Handout-6\Debug\Dev Class7.5 Handout.exe
+  Motor2D.vcxproj -> C:\Users\cristianpl\Documents\GitHub\Handout-6\Debug\Dev Class7.5 Handout.pdb (Partial PDB)

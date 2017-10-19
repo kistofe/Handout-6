@@ -115,16 +115,11 @@ bool j1Map::IsWalkable(int x, int y) const
 	// TODO 3: return true only if x and y are within map limits
 	// and the tile is walkable (tile id 0 in the navigation layer)
 	bool ret = false;
-
-	//We have to ensure we do not get out of the map
-	//We have to check if the node we are visiting is walkable or not
-	//Function GetTilesetfromTileid may be useful to check if the tile is walkable
-	
+		
 	for (int i = 0; i < data.layers.count(); i++)//loop through all layers
 	{
-		if (data.layers[i]->properties.Get("Navigation") == 1 /*&& x <= data.width && y <= data.height*/)//check if current layer has the property walkable
+		if (data.layers[i]->properties.Get("Navigation") == 1 && x < data.width && y < data.height && x >= 0 && y >= 0 && data.layers[i]->Get(x,y) == 0)//check if current layer has the property walkable
 		{
-			//data.layers[i]->Get(x, y);
 			ret = true;
 		}
 		
